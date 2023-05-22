@@ -2,4 +2,4 @@
 
 ### How to Install and Run the Project
 1. poetry install
-2. run python program via IDE/terminal (python -m main)
+2. run python program via IDE/terminal (poetry python main.py)
