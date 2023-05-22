@@ -146,6 +146,7 @@ async def extract_all_words(urls, bank_of_words, valid_proxies):
 
 
 async def main():
+    logger.info('Starting scraping...')
     # Get bank of words
     url = "https://raw.githubusercontent.com/dwyl/english-words/master/words.txt"
     response = requests.get(url)
